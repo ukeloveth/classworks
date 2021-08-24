@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+     //NO 1
+let user = prompt("Enter FizzBuzz");
+let str = user.startsWith("F");
+let strtwo = user.endsWith("B");
+if(user===str){
+    return str.length(0,3);
+}else if (user===strtwo) {
+    return  str.length(0,2);
+} else {
+   return str.length(0,3) " + " strtwo.length(0,2);
+}
+        
+
+
+       //NO 2
+       function lotteryTicket(a,b,c){
+        ab = parseInt(a+b);
+        bc = parseInt(b+c);
+        ac =parseInt(a+c);
+        if(ab===10 || bc === 10 || ac ===10){
+            return 10
+        }else{
+            return 0
+        }
+
+       }
+       console.log(lotteryTicket(9,1,0))
+       console.log(lotteryTicket(9,2,0))
+       console.log(lotteryTicket(9,1,4))
+
+
+       // 
+       //NO 3
+ function bunnywithtwoears(bunny){
+     let bunnies = bunny*2;
+     return bunnies
+     if(bunnies===0){
+         return bunnies
+     }
+     console.log(bunnywithtwoears(0));
+     console.log(bunnywithtwoears(1));
+     console.log(bunnywithtwoears(2));
+ }
+
+
+   </script> 
+</body>
+</html>
